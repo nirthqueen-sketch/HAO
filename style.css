@@ -1,0 +1,51 @@
+/* تصميم الصفحة */
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#ade6ff;
+    text-align:center;
+}
+
+header{
+    background:#0077b6;
+    color:white;
+    padding:20px;
+}
+
+h1{
+    font-size:40px;
+    margin:0;
+}
+
+.subtitle{
+    font-size:16px;
+    margin-top:5px;
+}
+
+#game-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:20px auto;
+}
+
+canvas{
+    background:#90e0ef;
+    width: 100%;
+    max-width:400px;
+    height: auto;
+    border:3px solid #023e8a;
+    border-radius:10px;
+}
+
+.score-board{
+    font-size:18px;
+    margin-bottom:20px;
+    color:#03045e;
+}
+
+footer{
+    background:#0077b6;
+    color:white;
+    padding:15px;
+}
